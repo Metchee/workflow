@@ -412,7 +412,7 @@ void Zappy3DRenderer::closeWindow() {
 }
 
 void Zappy3DRenderer::drawMap() {
-    const GameState& gameState = mediator.getGameState(); // <-- AJOUTE
+    const GameState& gameState = mediator.getGameState();
     for (int y = 0; y < gameState.getMapHeight(); ++y) {
         for (int x = 0; x < gameState.getMapWidth(); ++x) {
             const Tile& tile = gameState.getTile(x, y);

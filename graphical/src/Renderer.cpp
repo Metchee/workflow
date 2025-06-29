@@ -9,12 +9,21 @@
 #include <iostream>
 #include <cmath>
 #include <filesystem>
+#include <fstream>
+#include <sstream>
+#include <fstream>
+#include <algorithm> // pour std::transform
 
 Renderer::Renderer(sf::RenderWindow& win) : window(win), tile_size(32.0f), offset(50, 50) {
     if (!font.loadFromFile("../graphical/asset/dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf")) {
         std::cout << "Warning: Could not load font, using default" << std::endl;
     }
     gameView = window.getDefaultView();
+    if (!mainGuyTexture.loadFromFile("../graphical/asset/MainGuySpriteSheet.png")) {
+        std::cerr << "Erreur : impossible de charger MainGuySpriteSheet.png" << std::endl;
+    }
+    mainGuySprite.setTexture(mainGuyTexture);
+    loadTeamColors("../graphical/asset/team_colors.txt");
 }
 
 void Renderer::render(const GameState& gameState) {
@@ -66,29 +75,51 @@ void Renderer::renderTile(const Tile& tile) {
     for (int res : tile.resources) {
         total_resources += res;
     }
-    if (total_resources > 0 && tile_size > 15) {
         renderBackground(tile);
+    if (total_resources > 0 && tile_size > 15) {
         renderResources(window, tile);
-    }
-}
-
-void Renderer::renderPlayers(const GameState& gameState) {
-    for (const Player& player : gameState.getPlayers()) {
-        renderPlayer(player);
     }
 }
 
 void Renderer::renderPlayer(const Player& player) {
     sf::Vector2f pos = worldToScreen(player.x, player.y);
 
-    float radius = tile_size * 0.3f;
-    sf::CircleShape playerCircle(radius);
-    playerCircle.setPosition(pos.x + tile_size/2 - radius, pos.y + tile_size/2 - radius);
-    playerCircle.setFillColor(getTeamColor(player.team_name));
-    playerCircle.setOutlineThickness(2);
-    playerCircle.setOutlineColor(sf::Color::White);
+    int frameWidth = mainGuyTexture.getSize().x / frameCols;
+    int frameHeight = mainGuyTexture.getSize().y / frameRows;
 
-    window.draw(playerCircle);
+    int row = 0;
+    switch (player.orientation) {
+        case 1:
+            row = 2;
+            break;
+        case 2:
+            row = 1;
+            break;
+        case 3:
+            row = 0;
+            break;
+        case 4:
+            row = 3;
+            break;
+        default:
+            row = 0;
+            break;
+    }
+
+    sf::IntRect textureRect(animationFrame * frameWidth, row * frameHeight, frameWidth, frameHeight);
+    mainGuySprite.setTextureRect(textureRect);
+
+    float scaleX = tile_size / static_cast<float>(frameWidth);
+    float scaleY = tile_size / static_cast<float>(frameHeight);
+    mainGuySprite.setScale(scaleX, scaleY);
+
+    mainGuySprite.setColor(getTeamColor(player.team_name));
+
+    mainGuySprite.setPosition(
+        pos.x + tile_size / 2.f - (frameWidth * scaleX) / 2.f,
+        pos.y + tile_size / 2.f - (frameHeight * scaleY) / 2.f
+    );
+    window.draw(mainGuySprite);
 
     sf::Vector2f center(pos.x + tile_size/2, pos.y + tile_size/2);
     sf::Vector2f direction;
@@ -100,13 +131,6 @@ void Renderer::renderPlayer(const Player& player) {
         case 4: direction = sf::Vector2f(-1, 0); break;
         default: direction = sf::Vector2f(0, -1); break;
     }
-
-    sf::Vertex line[] = {
-        sf::Vertex(center, sf::Color::Yellow),
-        sf::Vertex(center + direction * radius * 1.5f, sf::Color::Yellow)
-    };
-    window.draw(line, 2, sf::Lines);
-
     if (tile_size > 20) {
         sf::Text idText;
         idText.setFont(font);
@@ -166,11 +190,9 @@ sf::Color Renderer::getResourceColor(const std::vector<int>& resources) {
             maxIndex = i;
         }
     }
-
     if (maxRes == 0) {
         return sf::Color(80, 80, 80);
     }
-
     switch (maxIndex) {
         case 0: return sf::Color(139, 69, 19);
         case 1: return sf::Color(192, 192, 192);
@@ -183,16 +205,45 @@ sf::Color Renderer::getResourceColor(const std::vector<int>& resources) {
     }
 }
 
-sf::Color Renderer::getTeamColor(const std::string& team_name) {
-    unsigned int hash = 0;
-    for (char c : team_name) {
-        hash = hash * 31 + c;
-    }
-    int r = 100 + (hash % 155);
-    int g = 100 + ((hash >> 8) % 155);
-    int b = 100 + ((hash >> 16) % 155);
+static std::string toLower(const std::string& s) {
+    std::string out = s;
+    std::transform(out.begin(), out.end(), out.begin(), ::tolower);
+    return out;
+}
 
-    return sf::Color(r, g, b);
+void Renderer::loadTeamColors(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Erreur : impossible d'ouvrir " << filename << std::endl;
+        return;
+    }
+    std::string line;
+    while (std::getline(file, line)) {
+        if (line.empty() || line[0] == '#')
+            continue;
+        auto sep = line.find(':');
+        if (sep == std::string::npos) continue;
+        std::string rgb = line.substr(sep + 1);
+        int r, g, b;
+        if (sscanf(rgb.c_str(), "%d,%d,%d", &r, &g, &b) == 3) {
+            teamColorList.push_back(sf::Color(r, g, b));
+        }
+    }
+}
+
+sf::Color Renderer::getTeamColor(const std::string& team_name) {
+    static size_t nextColor = 0;
+    std::string key = toLower(team_name);
+    key.erase(0, key.find_first_not_of(" \t\n\r"));
+    key.erase(key.find_last_not_of(" \t\n\r") + 1);
+    auto it = teamColorMap.find(key);
+    if (it != teamColorMap.end())
+        return it->second;
+    sf::Color color = teamColorList.empty() ? sf::Color(128,128,128)
+        : teamColorList[nextColor % teamColorList.size()];
+    teamColorMap[key] = color;
+    nextColor++;
+    return color;
 }
 
 sf::Vector2f Renderer::worldToScreen(int world_x, int world_y) {
@@ -203,7 +254,6 @@ sf::Vector2f Renderer::worldToScreen(int world_x, int world_y) {
 }
 
 void Renderer::renderBackground(const Tile& tile) {
-    if (tile.resources[1] <= 0) return;
 
     static sf::Texture Texture;
     static bool isLoaded = false;
@@ -337,4 +387,18 @@ void Renderer::playBackgroundMusic(const std::string& filepath)
     backgroundMusic.setVolume(100.0f);
     backgroundMusic.play();
     _musicPlaying = true;
+}
+
+void Renderer::updateAnimation(float deltaTime) {
+    animationTimer += deltaTime;
+    if (animationTimer >= frameDuration) {
+        animationFrame = (animationFrame + 1) % frameCols;
+        animationTimer = 0.0f;
+    }
+}
+
+void Renderer::renderPlayers(const GameState& gameState) {
+    for (const Player& player : gameState.getPlayers()) {
+        renderPlayer(player);
+    }
 }

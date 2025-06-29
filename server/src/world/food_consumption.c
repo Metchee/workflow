@@ -36,17 +36,17 @@ static int should_consume_food(server_t *server, player_t *player)
 static void consume_food_unit(server_t *server,
     player_t *player, client_connection_t *client)
 {
-    if (player->inventory[FOOD] > 0) {
-        player->inventory[FOOD]--;
-        player->last_food_consumption = get_current_time();
-        send_inventory_to_client(server, client);
-        printf("Player %d consumed 1 food unit. Remaining: %d\n",
-            player->id, player->inventory[FOOD]);
-    } else {
-        printf("Player %d died of starvation!\n", player->id);
-        server_send_to_client(client, "dead\n");
-        server_disconnect_client(server, client);
-    }
+    // if (player->inventory[FOOD] > 0) {
+    //     player->inventory[FOOD]--;
+    //     player->last_food_consumption = get_current_time();
+    //     send_inventory_to_client(server, client);
+    //     printf("Player %d consumed 1 food unit. Remaining: %d\n",
+    //         player->id, player->inventory[FOOD]);
+    // } else {
+    //     printf("Player %d died of starvation!\n", player->id);
+    //     server_send_to_client(client, "dead\n");
+    //     server_disconnect_client(server, client);
+    // }
 }
 
 void process_food_consumption(server_t *server)

@@ -171,8 +171,8 @@ bool server_run(server_t *server)
         setup_poll_fds(server);
         if (!server_handle_events(server))
             return false;
-        if ((clock() - server->world->refill_time) /
-            CLOCKS_PER_SEC > (TIME_UNIT_REP / server->world->frec)) {
+        if ((double)(clock() - server->world->refill_time) /
+            CLOCKS_PER_SEC > (double)TIME_UNIT_REP / server->world->frec) {
             server->world->refill_time = clock();
             put_ressources_in_tile(server->world->tiles,
                 server->world->height, server->world->width, server);
