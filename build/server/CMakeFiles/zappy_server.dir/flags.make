@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gabinrudigoz/zappy/workflow/server/include
+C_INCLUDES = -I/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include
 
 C_FLAGS = 
 

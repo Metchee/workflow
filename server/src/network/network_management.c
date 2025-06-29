@@ -13,24 +13,10 @@
 #include <unistd.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <netinet/tcp.h>
 #include <stdarg.h>
 #include "../include/server_network.h"
 #include "../include/message_protocol.h"
 #include "../include/player.h"
-
-static void optimize_client_socket(int client_fd)
-{
-    int flag = 1;
-    struct timeval timeout;
-
-    setsockopt(client_fd, IPPROTO_TCP, TCP_NODELAY, &flag, sizeof(flag));
-    timeout.tv_sec = 0;
-    timeout.tv_usec = 100000;
-    setsockopt(client_fd, SOL_SOCKET, SO_SNDTIMEO, &timeout, sizeof(timeout));
-    flag = BUFFER_SIZE;
-    setsockopt(client_fd, SOL_SOCKET, SO_SNDBUF, &flag, sizeof(flag));
-}
 
 static int accept_new_connection(server_t *server)
 {
@@ -44,7 +30,6 @@ static int accept_new_connection(server_t *server)
             perror("accept");
         return -1;
     }
-    optimize_client_socket(client_fd);
     if (!set_nonblocking(client_fd)) {
         close(client_fd);
         return -1;
@@ -165,19 +150,21 @@ int server_send_to_client(client_connection_t *client, const char *message,
     char formatted_message[BUFFER_SIZE];
     va_list args;
     size_t len = 0;
+    ssize_t sent = 0;
 
-    if (!client || !message || client->client.fd < 0)
+    if (!client || !message)
         return ERROR;
     va_start(args, message);
     vsnprintf(formatted_message, sizeof(formatted_message), message, args);
     va_end(args);
     len = strlen(formatted_message);
-    if (send_complete_message(client->client.fd, formatted_message, len)
-        != SUCCESS) {
+    sent = send(client->client.fd, formatted_message, len, MSG_NOSIGNAL);
+    if (sent == -1) {
         if (errno != EAGAIN && errno != EWOULDBLOCK) {
             perror("send");
+            return ERROR;
         }
         return ERROR;
     }
-    return len;
+    return sent;
 }

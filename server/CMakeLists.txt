@@ -6,6 +6,7 @@ include_directories(include)
 add_executable(zappy_server
     src/core/main.c
     src/core/server_core.c
+    src/core/server_network_setup.c
     src/core/signal_handling.c
     src/core/server_shutdown.c
     src/config/args_error_handling.c
@@ -39,15 +40,9 @@ add_executable(zappy_server
     src/utils/player_utils.c
     src/utils/resource_utils.c
     src/utils/spatial_utils.c
-    src/utils/ressources_utils.c
-    src/utils/network_utils.c
     src/world/player_management.c
     src/world/spatial_management.c
     src/world/world_creation.c
-    src/world/world_ressources.c
-    src/world/world_ressources_three.c
-    src/world/world_ressources_bis.c
-    src/world/food_consumption.c
 )
 
 set_target_properties(zappy_server PROPERTIES

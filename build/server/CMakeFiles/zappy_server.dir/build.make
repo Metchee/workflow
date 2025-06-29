@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/workflow
+CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/workflow/build
+CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build
 
 # Include any dependencies generated for this target.
 include server/CMakeFiles/zappy_server.dir/depend.make
@@ -70,625 +70,556 @@ include server/CMakeFiles/zappy_server.dir/progress.make
 include server/CMakeFiles/zappy_server.dir/flags.make
 
 server/CMakeFiles/zappy_server.dir/src/core/main.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/core/main.c.o: /home/gabinrudigoz/zappy/workflow/server/src/core/main.c
+server/CMakeFiles/zappy_server.dir/src/core/main.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/main.c
 server/CMakeFiles/zappy_server.dir/src/core/main.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object server/CMakeFiles/zappy_server.dir/src/core/main.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/main.c.o -MF CMakeFiles/zappy_server.dir/src/core/main.c.o.d -o CMakeFiles/zappy_server.dir/src/core/main.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/core/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object server/CMakeFiles/zappy_server.dir/src/core/main.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/main.c.o -MF CMakeFiles/zappy_server.dir/src/core/main.c.o.d -o CMakeFiles/zappy_server.dir/src/core/main.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/main.c
 
 server/CMakeFiles/zappy_server.dir/src/core/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/core/main.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/core/main.c > CMakeFiles/zappy_server.dir/src/core/main.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/main.c > CMakeFiles/zappy_server.dir/src/core/main.c.i
 
 server/CMakeFiles/zappy_server.dir/src/core/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/core/main.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/core/main.c -o CMakeFiles/zappy_server.dir/src/core/main.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/main.c -o CMakeFiles/zappy_server.dir/src/core/main.c.s
 
 server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: /home/gabinrudigoz/zappy/workflow/server/src/core/server_core.c
+server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_core.c
 server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o -MF CMakeFiles/zappy_server.dir/src/core/server_core.c.o.d -o CMakeFiles/zappy_server.dir/src/core/server_core.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/core/server_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o -MF CMakeFiles/zappy_server.dir/src/core/server_core.c.o.d -o CMakeFiles/zappy_server.dir/src/core/server_core.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_core.c
 
 server/CMakeFiles/zappy_server.dir/src/core/server_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/core/server_core.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/core/server_core.c > CMakeFiles/zappy_server.dir/src/core/server_core.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_core.c > CMakeFiles/zappy_server.dir/src/core/server_core.c.i
 
 server/CMakeFiles/zappy_server.dir/src/core/server_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/core/server_core.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/core/server_core.c -o CMakeFiles/zappy_server.dir/src/core/server_core.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_core.c -o CMakeFiles/zappy_server.dir/src/core/server_core.c.s
+
+server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o: server/CMakeFiles/zappy_server.dir/flags.make
+server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_network_setup.c
+server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o -MF CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o.d -o CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_network_setup.c
+
+server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.i"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_network_setup.c > CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.i
+
+server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.s"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_network_setup.c -o CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.s
 
 server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: /home/gabinrudigoz/zappy/workflow/server/src/core/signal_handling.c
+server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/signal_handling.c
 server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o -MF CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o.d -o CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/core/signal_handling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o -MF CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o.d -o CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/signal_handling.c
 
 server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/core/signal_handling.c > CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/signal_handling.c > CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i
 
 server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/core/signal_handling.c -o CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/signal_handling.c -o CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s
 
 server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o: /home/gabinrudigoz/zappy/workflow/server/src/core/server_shutdown.c
+server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_shutdown.c
 server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o -MF CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o.d -o CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/core/server_shutdown.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o -MF CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o.d -o CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_shutdown.c
 
 server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/core/server_shutdown.c > CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_shutdown.c > CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i
 
 server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/core/server_shutdown.c -o CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_shutdown.c -o CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s
 
 server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o: /home/gabinrudigoz/zappy/workflow/server/src/config/args_error_handling.c
+server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/args_error_handling.c
 server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o -MF CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o.d -o CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/config/args_error_handling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o -MF CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o.d -o CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/args_error_handling.c
 
 server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/config/args_error_handling.c > CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/args_error_handling.c > CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i
 
 server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/config/args_error_handling.c -o CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/args_error_handling.c -o CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s
 
 server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o: /home/gabinrudigoz/zappy/workflow/server/src/config/argument_parsing.c
+server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/argument_parsing.c
 server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o -MF CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o.d -o CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/config/argument_parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o -MF CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o.d -o CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/argument_parsing.c
 
 server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/config/argument_parsing.c > CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/argument_parsing.c > CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i
 
 server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/config/argument_parsing.c -o CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/config/argument_parsing.c -o CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_handlers.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_handlers.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_handlers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_handlers.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_handlers.c > CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_handlers.c > CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_eject.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_eject.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_eject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_eject.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_eject.c > CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_eject.c > CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_eject.c -o CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_eject.c -o CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_death.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_death.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_death.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_death.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_death.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_death.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_death.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_death.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_death.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_death.c > CMakeFiles/zappy_server.dir/src/commands/command_death.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_death.c > CMakeFiles/zappy_server.dir/src/commands/command_death.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_death.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_death.c -o CMakeFiles/zappy_server.dir/src/commands/command_death.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_death.c -o CMakeFiles/zappy_server.dir/src/commands/command_death.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_inventory.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_inventory.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_inventory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_inventory.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_inventory.c > CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_inventory.c > CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_inventory.c -o CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_inventory.c -o CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_look.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_look.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_look.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_look.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_look.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_look.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_look.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_look.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_look.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_look.c > CMakeFiles/zappy_server.dir/src/commands/command_look.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_look.c > CMakeFiles/zappy_server.dir/src/commands/command_look.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_look.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_look.c -o CMakeFiles/zappy_server.dir/src/commands/command_look.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_look.c -o CMakeFiles/zappy_server.dir/src/commands/command_look.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_move.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_move.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_move.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_move.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_move.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_move.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_move.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_move.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_move.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_move.c > CMakeFiles/zappy_server.dir/src/commands/command_move.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_move.c > CMakeFiles/zappy_server.dir/src/commands/command_move.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_move.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_move.c -o CMakeFiles/zappy_server.dir/src/commands/command_move.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_move.c -o CMakeFiles/zappy_server.dir/src/commands/command_move.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_take_object.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_take_object.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_take_object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_take_object.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_take_object.c > CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_take_object.c > CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_take_object.c -o CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_take_object.c -o CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_set_object.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_set_object.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_set_object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_set_object.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_set_object.c > CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_set_object.c > CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_set_object.c -o CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_set_object.c -o CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_elevation.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_elevation.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_elevation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_elevation.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_elevation.c > CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_elevation.c > CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_elevation.c -o CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_elevation.c -o CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_actions.c
+server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_actions.c
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o -MF CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o -MF CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_actions.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_actions.c > CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_actions.c > CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_actions.c -o CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_actions.c -o CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_checks.c
+server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_checks.c
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o -MF CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_checks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o -MF CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_checks.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_checks.c > CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_checks.c > CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/elevation_checks.c -o CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/elevation_checks.c -o CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_connect_nbr.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_connect_nbr.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_connect_nbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_connect_nbr.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_connect_nbr.c > CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_connect_nbr.c > CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_connect_nbr.c -o CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_connect_nbr.c -o CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers.c
+server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers.c
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers.c > CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers.c > CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers_bis.c
+server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers_bis.c
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o -MF CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers_bis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o -MF CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers_bis.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers_bis.c > CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers_bis.c > CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/set_handlers_bis.c -o CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/set_handlers_bis.c -o CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers.c
+server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers.c
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o -MF CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers.c > CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers.c > CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers.c -o CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers_bis.c
+server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers_bis.c
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o -MF CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers_bis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o -MF CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers_bis.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers_bis.c > CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers_bis.c > CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/take_handlers_bis.c -o CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/take_handlers_bis.c -o CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_queue.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_queue.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_queue.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_queue.c > CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_queue.c > CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_queue.c -o CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_queue.c -o CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/message_processing.c
+server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/message_processing.c
 server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o -MF CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/message_processing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o -MF CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/message_processing.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/message_processing.c > CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/message_processing.c > CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/message_processing.c -o CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/message_processing.c -o CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/move_player.c
+server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/move_player.c
 server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o -MF CMakeFiles/zappy_server.dir/src/commands/move_player.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/move_player.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/move_player.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o -MF CMakeFiles/zappy_server.dir/src/commands/move_player.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/move_player.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/move_player.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/move_player.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/move_player.c > CMakeFiles/zappy_server.dir/src/commands/move_player.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/move_player.c > CMakeFiles/zappy_server.dir/src/commands/move_player.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/move_player.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/move_player.c -o CMakeFiles/zappy_server.dir/src/commands/move_player.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/move_player.c -o CMakeFiles/zappy_server.dir/src/commands/move_player.c.s
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o: /home/gabinrudigoz/zappy/workflow/server/src/commands/command_broadcast.c
+server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_broadcast.c
 server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/commands/command_broadcast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o -MF CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o.d -o CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_broadcast.c
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/commands/command_broadcast.c > CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_broadcast.c > CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i
 
 server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/commands/command_broadcast.c -o CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_broadcast.c -o CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s
 
 server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o: /home/gabinrudigoz/zappy/workflow/server/src/network/client_broadcast.c
+server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_broadcast.c
 server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o -MF CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o.d -o CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/network/client_broadcast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o -MF CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o.d -o CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_broadcast.c
 
 server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/network/client_broadcast.c > CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_broadcast.c > CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i
 
 server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/network/client_broadcast.c -o CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_broadcast.c -o CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s
 
 server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o: /home/gabinrudigoz/zappy/workflow/server/src/network/client_communication.c
+server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_communication.c
 server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o -MF CMakeFiles/zappy_server.dir/src/network/client_communication.c.o.d -o CMakeFiles/zappy_server.dir/src/network/client_communication.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/network/client_communication.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o -MF CMakeFiles/zappy_server.dir/src/network/client_communication.c.o.d -o CMakeFiles/zappy_server.dir/src/network/client_communication.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_communication.c
 
 server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/network/client_communication.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/network/client_communication.c > CMakeFiles/zappy_server.dir/src/network/client_communication.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_communication.c > CMakeFiles/zappy_server.dir/src/network/client_communication.c.i
 
 server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/network/client_communication.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/network/client_communication.c -o CMakeFiles/zappy_server.dir/src/network/client_communication.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/client_communication.c -o CMakeFiles/zappy_server.dir/src/network/client_communication.c.s
 
 server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o: /home/gabinrudigoz/zappy/workflow/server/src/network/event_polling.c
+server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/event_polling.c
 server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o -MF CMakeFiles/zappy_server.dir/src/network/event_polling.c.o.d -o CMakeFiles/zappy_server.dir/src/network/event_polling.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/network/event_polling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o -MF CMakeFiles/zappy_server.dir/src/network/event_polling.c.o.d -o CMakeFiles/zappy_server.dir/src/network/event_polling.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/event_polling.c
 
 server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/network/event_polling.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/network/event_polling.c > CMakeFiles/zappy_server.dir/src/network/event_polling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/event_polling.c > CMakeFiles/zappy_server.dir/src/network/event_polling.c.i
 
 server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/network/event_polling.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/network/event_polling.c -o CMakeFiles/zappy_server.dir/src/network/event_polling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/event_polling.c -o CMakeFiles/zappy_server.dir/src/network/event_polling.c.s
 
 server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: /home/gabinrudigoz/zappy/workflow/server/src/network/network_management.c
+server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/network_management.c
 server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o -MF CMakeFiles/zappy_server.dir/src/network/network_management.c.o.d -o CMakeFiles/zappy_server.dir/src/network/network_management.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/network/network_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o -MF CMakeFiles/zappy_server.dir/src/network/network_management.c.o.d -o CMakeFiles/zappy_server.dir/src/network/network_management.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/network_management.c
 
 server/CMakeFiles/zappy_server.dir/src/network/network_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/network/network_management.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/network/network_management.c > CMakeFiles/zappy_server.dir/src/network/network_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/network_management.c > CMakeFiles/zappy_server.dir/src/network/network_management.c.i
 
 server/CMakeFiles/zappy_server.dir/src/network/network_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/network/network_management.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/network/network_management.c -o CMakeFiles/zappy_server.dir/src/network/network_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/network_management.c -o CMakeFiles/zappy_server.dir/src/network/network_management.c.s
 
 server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/cleanup_utils.c
+server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/cleanup_utils.c
 server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/cleanup_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/cleanup_utils.c
 
 server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/cleanup_utils.c > CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/cleanup_utils.c > CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i
 
 server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/cleanup_utils.c -o CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/cleanup_utils.c -o CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s
 
 server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/look_utils.c
+server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/look_utils.c
 server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/look_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/look_utils.c
 
 server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/look_utils.c > CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/look_utils.c > CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i
 
 server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/look_utils.c -o CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/look_utils.c -o CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s
 
 server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/player_utils.c
+server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/player_utils.c
 server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/player_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/player_utils.c
 
 server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/player_utils.c > CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/player_utils.c > CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i
 
 server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/player_utils.c -o CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/player_utils.c -o CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s
 
 server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/resource_utils.c
+server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/resource_utils.c
 server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/resource_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/resource_utils.c
 
 server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/resource_utils.c > CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/resource_utils.c > CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i
 
 server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/resource_utils.c -o CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/resource_utils.c -o CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s
 
 server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/spatial_utils.c
+server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/spatial_utils.c
 server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/spatial_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/spatial_utils.c
 
 server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/spatial_utils.c > CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/spatial_utils.c > CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i
 
 server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/spatial_utils.c -o CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s
-
-server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/ressources_utils.c
-server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/ressources_utils.c
-
-server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/ressources_utils.c > CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.i
-
-server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/ressources_utils.c -o CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.s
-
-server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o: /home/gabinrudigoz/zappy/workflow/server/src/utils/network_utils.c
-server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o -MF CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o.d -o CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/utils/network_utils.c
-
-server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/utils/network_utils.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/utils/network_utils.c > CMakeFiles/zappy_server.dir/src/utils/network_utils.c.i
-
-server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/utils/network_utils.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/utils/network_utils.c -o CMakeFiles/zappy_server.dir/src/utils/network_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/utils/spatial_utils.c -o CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s
 
 server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/player_management.c
+server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/player_management.c
 server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o -MF CMakeFiles/zappy_server.dir/src/world/player_management.c.o.d -o CMakeFiles/zappy_server.dir/src/world/player_management.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/player_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o -MF CMakeFiles/zappy_server.dir/src/world/player_management.c.o.d -o CMakeFiles/zappy_server.dir/src/world/player_management.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/player_management.c
 
 server/CMakeFiles/zappy_server.dir/src/world/player_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/player_management.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/player_management.c > CMakeFiles/zappy_server.dir/src/world/player_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/player_management.c > CMakeFiles/zappy_server.dir/src/world/player_management.c.i
 
 server/CMakeFiles/zappy_server.dir/src/world/player_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/player_management.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/player_management.c -o CMakeFiles/zappy_server.dir/src/world/player_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/player_management.c -o CMakeFiles/zappy_server.dir/src/world/player_management.c.s
 
 server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/spatial_management.c
+server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/spatial_management.c
 server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o -MF CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o.d -o CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/spatial_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o -MF CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o.d -o CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/spatial_management.c
 
 server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/spatial_management.c > CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/spatial_management.c > CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i
 
 server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/spatial_management.c -o CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/spatial_management.c -o CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s
 
 server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/world_creation.c
+server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/world_creation.c
 server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o -MF CMakeFiles/zappy_server.dir/src/world/world_creation.c.o.d -o CMakeFiles/zappy_server.dir/src/world/world_creation.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/world_creation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o -MF CMakeFiles/zappy_server.dir/src/world/world_creation.c.o.d -o CMakeFiles/zappy_server.dir/src/world/world_creation.c.o -c /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/world_creation.c
 
 server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/world_creation.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/world_creation.c > CMakeFiles/zappy_server.dir/src/world/world_creation.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/world_creation.c > CMakeFiles/zappy_server.dir/src/world/world_creation.c.i
 
 server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/world_creation.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/world_creation.c -o CMakeFiles/zappy_server.dir/src/world/world_creation.c.s
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources.c
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o -MF CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o.d -o CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources.c
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/world_ressources.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources.c > CMakeFiles/zappy_server.dir/src/world/world_ressources.c.i
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/world_ressources.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources.c -o CMakeFiles/zappy_server.dir/src/world/world_ressources.c.s
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_three.c
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o -MF CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o.d -o CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_three.c
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_three.c > CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.i
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_three.c -o CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.s
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_bis.c
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o -MF CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o.d -o CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_bis.c
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_bis.c > CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.i
-
-server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/world_ressources_bis.c -o CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.s
-
-server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o: server/CMakeFiles/zappy_server.dir/flags.make
-server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o: /home/gabinrudigoz/zappy/workflow/server/src/world/food_consumption.c
-server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o: server/CMakeFiles/zappy_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o -MF CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o.d -o CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o -c /home/gabinrudigoz/zappy/workflow/server/src/world/food_consumption.c
-
-server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zappy_server.dir/src/world/food_consumption.c.i"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gabinrudigoz/zappy/workflow/server/src/world/food_consumption.c > CMakeFiles/zappy_server.dir/src/world/food_consumption.c.i
-
-server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zappy_server.dir/src/world/food_consumption.c.s"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/workflow/server/src/world/food_consumption.c -o CMakeFiles/zappy_server.dir/src/world/food_consumption.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/world/world_creation.c -o CMakeFiles/zappy_server.dir/src/world/world_creation.c.s
 
 # Object files for target zappy_server
 zappy_server_OBJECTS = \
 "CMakeFiles/zappy_server.dir/src/core/main.c.o" \
 "CMakeFiles/zappy_server.dir/src/core/server_core.c.o" \
+"CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o" \
 "CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o" \
 "CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o" \
 "CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o" \
@@ -722,21 +653,16 @@ zappy_server_OBJECTS = \
 "CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o" \
 "CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o" \
 "CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o" \
-"CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o" \
-"CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o" \
 "CMakeFiles/zappy_server.dir/src/world/player_management.c.o" \
 "CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o" \
-"CMakeFiles/zappy_server.dir/src/world/world_creation.c.o" \
-"CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o" \
-"CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o" \
-"CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o" \
-"CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o"
+"CMakeFiles/zappy_server.dir/src/world/world_creation.c.o"
 
 # External object files for target zappy_server
 zappy_server_EXTERNAL_OBJECTS =
 
 zappy_server: server/CMakeFiles/zappy_server.dir/src/core/main.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o
+zappy_server: server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o
@@ -770,29 +696,23 @@ zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o
-zappy_server: server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o
 zappy_server: server/CMakeFiles/zappy_server.dir/build.make
 zappy_server: server/CMakeFiles/zappy_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable ../zappy_server"
-	cd /home/gabinrudigoz/zappy/workflow/build/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zappy_server.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable ../zappy_server"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zappy_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 server/CMakeFiles/zappy_server.dir/build: zappy_server
 .PHONY : server/CMakeFiles/zappy_server.dir/build
 
 server/CMakeFiles/zappy_server.dir/clean:
-	cd /home/gabinrudigoz/zappy/workflow/build/server && $(CMAKE_COMMAND) -P CMakeFiles/zappy_server.dir/cmake_clean.cmake
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server && $(CMAKE_COMMAND) -P CMakeFiles/zappy_server.dir/cmake_clean.cmake
 .PHONY : server/CMakeFiles/zappy_server.dir/clean
 
 server/CMakeFiles/zappy_server.dir/depend:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gabinrudigoz/zappy/workflow /home/gabinrudigoz/zappy/workflow/server /home/gabinrudigoz/zappy/workflow/build /home/gabinrudigoz/zappy/workflow/build/server /home/gabinrudigoz/zappy/workflow/build/server/CMakeFiles/zappy_server.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server/CMakeFiles/zappy_server.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : server/CMakeFiles/zappy_server.dir/depend
 

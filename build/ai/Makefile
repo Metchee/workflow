@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/workflow
+CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/workflow/build
+CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles /home/gabinrudigoz/zappy/workflow/build/ai//CMakeFiles/progress.marks
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 0
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai//CMakeFiles/progress.marks
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/clean
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/preinstall
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/preinstall
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ai/CMakeFiles/zappy_ai.dir/rule:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/CMakeFiles/zappy_ai.dir/rule
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/CMakeFiles/zappy_ai.dir/rule
 .PHONY : ai/CMakeFiles/zappy_ai.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ zappy_ai: ai/CMakeFiles/zappy_ai.dir/rule
 
 # fast build rule for target.
 zappy_ai/fast:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f ai/CMakeFiles/zappy_ai.dir/build.make ai/CMakeFiles/zappy_ai.dir/build
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f ai/CMakeFiles/zappy_ai.dir/build.make ai/CMakeFiles/zappy_ai.dir/build
 .PHONY : zappy_ai/fast
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

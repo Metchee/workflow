@@ -23,4 +23,5 @@ void notify_gui_player_disconnect(server_t *server, player_t const *player);
 bool server_run(server_t *server);
 int send_complete_message(int client_fd, const char *message,
     size_t len);
+void server_process_client_events(server_t *server);
 #endif

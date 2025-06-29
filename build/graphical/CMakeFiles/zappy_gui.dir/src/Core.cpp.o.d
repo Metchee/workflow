@@ -1,8 +1,8 @@
 graphical/CMakeFiles/zappy_gui.dir/src/Core.cpp.o: \
- /home/gabinrudigoz/zappy/workflow/graphical/src/Core.cpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/Core.cpp \
  /usr/include/stdc-predef.h \
- /home/gabinrudigoz/zappy/workflow/graphical/src/../lib/Core.hpp \
- /home/gabinrudigoz/zappy/workflow/graphical/src/../lib/Client_network.hpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/../lib/Core.hpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/../lib/Client_network.hpp \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -107,7 +107,7 @@ graphical/CMakeFiles/zappy_gui.dir/src/Core.cpp.o: \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/bits/stl_heap.h \
  /usr/include/c++/14/bits/stl_queue.h \
- /home/gabinrudigoz/zappy/workflow/graphical/src/../lib/GameState.hpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/../lib/GameState.hpp \
  /usr/include/c++/14/unordered_map \
  /usr/include/c++/14/bits/unordered_map.h \
  /usr/include/c++/14/bits/hashtable.h \

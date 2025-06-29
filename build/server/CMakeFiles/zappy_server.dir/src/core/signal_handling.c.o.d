@@ -1,5 +1,5 @@
 server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: \
- /home/gabinrudigoz/zappy/workflow/server/src/core/signal_handling.c \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/signal_handling.c \
  /usr/include/stdc-predef.h /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -46,7 +46,7 @@ server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/struct_timeval.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
@@ -58,12 +58,12 @@ server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o: \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/netinet/in.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/in.h \
  /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/map_parameters.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/map_parameters.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/ressources.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server_signal.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server.h
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/ressources.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server_signal.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server.h

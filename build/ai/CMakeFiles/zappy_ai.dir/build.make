@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/workflow
+CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/workflow/build
+CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build
 
 # Utility rule file for zappy_ai.
 
@@ -66,14 +66,14 @@ include ai/CMakeFiles/zappy_ai.dir/compiler_depend.make
 # Include the progress variables for this target.
 include ai/CMakeFiles/zappy_ai.dir/progress.make
 
-ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/workflow/ai/src/main.py
-ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/workflow/ai/src/game_types.py
-ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/workflow/ai/src/network.py
-ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/workflow/ai/src/protocol.py
-ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/workflow/ai/src/zappy_ai.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zappy_ai executable"
-	cd /home/gabinrudigoz/zappy/workflow/build/ai && /usr/bin/cmake -E copy /home/gabinrudigoz/zappy/workflow/build/zappy_ai_wrapper.sh /home/gabinrudigoz/zappy/workflow/build/zappy_ai
-	cd /home/gabinrudigoz/zappy/workflow/build/ai && chmod +x /home/gabinrudigoz/zappy/workflow/build/zappy_ai
+ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/main.py
+ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/game_types.py
+ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/network.py
+ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/protocol.py
+ai/CMakeFiles/zappy_ai: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/zappy_ai.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zappy_ai executable"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai && /usr/bin/cmake -E copy /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_ai_wrapper.sh /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_ai
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai && chmod +x /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_ai
 
 zappy_ai: ai/CMakeFiles/zappy_ai
 zappy_ai: ai/CMakeFiles/zappy_ai.dir/build.make
@@ -84,10 +84,10 @@ ai/CMakeFiles/zappy_ai.dir/build: zappy_ai
 .PHONY : ai/CMakeFiles/zappy_ai.dir/build
 
 ai/CMakeFiles/zappy_ai.dir/clean:
-	cd /home/gabinrudigoz/zappy/workflow/build/ai && $(CMAKE_COMMAND) -P CMakeFiles/zappy_ai.dir/cmake_clean.cmake
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai && $(CMAKE_COMMAND) -P CMakeFiles/zappy_ai.dir/cmake_clean.cmake
 .PHONY : ai/CMakeFiles/zappy_ai.dir/clean
 
 ai/CMakeFiles/zappy_ai.dir/depend:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gabinrudigoz/zappy/workflow /home/gabinrudigoz/zappy/workflow/ai /home/gabinrudigoz/zappy/workflow/build /home/gabinrudigoz/zappy/workflow/build/ai /home/gabinrudigoz/zappy/workflow/build/ai/CMakeFiles/zappy_ai.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai/CMakeFiles/zappy_ai.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ai/CMakeFiles/zappy_ai.dir/depend
 

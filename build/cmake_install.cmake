@@ -1,4 +1,4 @@
-# Install script for directory: /home/gabinrudigoz/zappy/workflow
+# Install script for directory: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gabinrudigoz/zappy/workflow/build/zappy_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_server")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,7 +59,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gabinrudigoz/zappy/workflow/build/server/CMakeFiles/zappy_server.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server/CMakeFiles/zappy_server.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -69,7 +69,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_gui"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gabinrudigoz/zappy/workflow/build/zappy_gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_gui")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_gui" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/zappy_gui")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -79,22 +79,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gabinrudigoz/zappy/workflow/build/graphical/CMakeFiles/zappy_gui.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/graphical/CMakeFiles/zappy_gui.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/gabinrudigoz/zappy/workflow/build/zappy_ai")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/zappy_ai")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zappy/ai" TYPE DIRECTORY FILES "/home/gabinrudigoz/zappy/workflow/ai/src/" FILES_MATCHING REGEX "/[^/]*\\.py$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zappy/ai" TYPE DIRECTORY FILES "/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai/src/" FILES_MATCHING REGEX "/[^/]*\\.py$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gabinrudigoz/zappy/workflow/build/server/cmake_install.cmake")
-  include("/home/gabinrudigoz/zappy/workflow/build/graphical/cmake_install.cmake")
-  include("/home/gabinrudigoz/zappy/workflow/build/ai/cmake_install.cmake")
+  include("/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server/cmake_install.cmake")
+  include("/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/graphical/cmake_install.cmake")
+  include("/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/ai/cmake_install.cmake")
 
 endif()
 
@@ -113,6 +113,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/gabinrudigoz/zappy/workflow/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

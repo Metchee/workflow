@@ -15,7 +15,7 @@ add_executable(zappy_gui
     src/Core.cpp
 )
 
-target_link_libraries(zappy_gui PRIVATE ${SFML_LIBRARIES} raylib sfml-audio)
+target_link_libraries(zappy_gui PRIVATE ${SFML_LIBRARIES} raylib)
 target_include_directories(zappy_gui PRIVATE ${SFML_INCLUDE_DIRS})
 target_compile_options(zappy_gui PRIVATE ${SFML_CFLAGS_OTHER})
 

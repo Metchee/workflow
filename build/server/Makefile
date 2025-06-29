@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/workflow
+CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/workflow/build
+CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles /home/gabinrudigoz/zappy/workflow/build/server//CMakeFiles/progress.marks
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 0
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/server//CMakeFiles/progress.marks
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/clean
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/preinstall
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/preinstall
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 server/CMakeFiles/zappy_server.dir/rule:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/CMakeFiles/zappy_server.dir/rule
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/CMakeFiles/zappy_server.dir/rule
 .PHONY : server/CMakeFiles/zappy_server.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ zappy_server: server/CMakeFiles/zappy_server.dir/rule
 
 # fast build rule for target.
 zappy_server/fast:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/build
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/build
 .PHONY : zappy_server/fast
 
 src/commands/command_broadcast.o: src/commands/command_broadcast.c.o
@@ -180,7 +180,7 @@ src/commands/command_broadcast.o: src/commands/command_broadcast.c.o
 
 # target to build an object file
 src/commands/command_broadcast.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.o
 .PHONY : src/commands/command_broadcast.c.o
 
 src/commands/command_broadcast.i: src/commands/command_broadcast.c.i
@@ -188,7 +188,7 @@ src/commands/command_broadcast.i: src/commands/command_broadcast.c.i
 
 # target to preprocess a source file
 src/commands/command_broadcast.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.i
 .PHONY : src/commands/command_broadcast.c.i
 
 src/commands/command_broadcast.s: src/commands/command_broadcast.c.s
@@ -196,7 +196,7 @@ src/commands/command_broadcast.s: src/commands/command_broadcast.c.s
 
 # target to generate assembly for a file
 src/commands/command_broadcast.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_broadcast.c.s
 .PHONY : src/commands/command_broadcast.c.s
 
 src/commands/command_connect_nbr.o: src/commands/command_connect_nbr.c.o
@@ -204,7 +204,7 @@ src/commands/command_connect_nbr.o: src/commands/command_connect_nbr.c.o
 
 # target to build an object file
 src/commands/command_connect_nbr.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.o
 .PHONY : src/commands/command_connect_nbr.c.o
 
 src/commands/command_connect_nbr.i: src/commands/command_connect_nbr.c.i
@@ -212,7 +212,7 @@ src/commands/command_connect_nbr.i: src/commands/command_connect_nbr.c.i
 
 # target to preprocess a source file
 src/commands/command_connect_nbr.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.i
 .PHONY : src/commands/command_connect_nbr.c.i
 
 src/commands/command_connect_nbr.s: src/commands/command_connect_nbr.c.s
@@ -220,7 +220,7 @@ src/commands/command_connect_nbr.s: src/commands/command_connect_nbr.c.s
 
 # target to generate assembly for a file
 src/commands/command_connect_nbr.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_connect_nbr.c.s
 .PHONY : src/commands/command_connect_nbr.c.s
 
 src/commands/command_death.o: src/commands/command_death.c.o
@@ -228,7 +228,7 @@ src/commands/command_death.o: src/commands/command_death.c.o
 
 # target to build an object file
 src/commands/command_death.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o
 .PHONY : src/commands/command_death.c.o
 
 src/commands/command_death.i: src/commands/command_death.c.i
@@ -236,7 +236,7 @@ src/commands/command_death.i: src/commands/command_death.c.i
 
 # target to preprocess a source file
 src/commands/command_death.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.i
 .PHONY : src/commands/command_death.c.i
 
 src/commands/command_death.s: src/commands/command_death.c.s
@@ -244,7 +244,7 @@ src/commands/command_death.s: src/commands/command_death.c.s
 
 # target to generate assembly for a file
 src/commands/command_death.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.s
 .PHONY : src/commands/command_death.c.s
 
 src/commands/command_eject.o: src/commands/command_eject.c.o
@@ -252,7 +252,7 @@ src/commands/command_eject.o: src/commands/command_eject.c.o
 
 # target to build an object file
 src/commands/command_eject.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.o
 .PHONY : src/commands/command_eject.c.o
 
 src/commands/command_eject.i: src/commands/command_eject.c.i
@@ -260,7 +260,7 @@ src/commands/command_eject.i: src/commands/command_eject.c.i
 
 # target to preprocess a source file
 src/commands/command_eject.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.i
 .PHONY : src/commands/command_eject.c.i
 
 src/commands/command_eject.s: src/commands/command_eject.c.s
@@ -268,7 +268,7 @@ src/commands/command_eject.s: src/commands/command_eject.c.s
 
 # target to generate assembly for a file
 src/commands/command_eject.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_eject.c.s
 .PHONY : src/commands/command_eject.c.s
 
 src/commands/command_elevation.o: src/commands/command_elevation.c.o
@@ -276,7 +276,7 @@ src/commands/command_elevation.o: src/commands/command_elevation.c.o
 
 # target to build an object file
 src/commands/command_elevation.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.o
 .PHONY : src/commands/command_elevation.c.o
 
 src/commands/command_elevation.i: src/commands/command_elevation.c.i
@@ -284,7 +284,7 @@ src/commands/command_elevation.i: src/commands/command_elevation.c.i
 
 # target to preprocess a source file
 src/commands/command_elevation.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.i
 .PHONY : src/commands/command_elevation.c.i
 
 src/commands/command_elevation.s: src/commands/command_elevation.c.s
@@ -292,7 +292,7 @@ src/commands/command_elevation.s: src/commands/command_elevation.c.s
 
 # target to generate assembly for a file
 src/commands/command_elevation.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_elevation.c.s
 .PHONY : src/commands/command_elevation.c.s
 
 src/commands/command_handlers.o: src/commands/command_handlers.c.o
@@ -300,7 +300,7 @@ src/commands/command_handlers.o: src/commands/command_handlers.c.o
 
 # target to build an object file
 src/commands/command_handlers.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.o
 .PHONY : src/commands/command_handlers.c.o
 
 src/commands/command_handlers.i: src/commands/command_handlers.c.i
@@ -308,7 +308,7 @@ src/commands/command_handlers.i: src/commands/command_handlers.c.i
 
 # target to preprocess a source file
 src/commands/command_handlers.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.i
 .PHONY : src/commands/command_handlers.c.i
 
 src/commands/command_handlers.s: src/commands/command_handlers.c.s
@@ -316,7 +316,7 @@ src/commands/command_handlers.s: src/commands/command_handlers.c.s
 
 # target to generate assembly for a file
 src/commands/command_handlers.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_handlers.c.s
 .PHONY : src/commands/command_handlers.c.s
 
 src/commands/command_inventory.o: src/commands/command_inventory.c.o
@@ -324,7 +324,7 @@ src/commands/command_inventory.o: src/commands/command_inventory.c.o
 
 # target to build an object file
 src/commands/command_inventory.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.o
 .PHONY : src/commands/command_inventory.c.o
 
 src/commands/command_inventory.i: src/commands/command_inventory.c.i
@@ -332,7 +332,7 @@ src/commands/command_inventory.i: src/commands/command_inventory.c.i
 
 # target to preprocess a source file
 src/commands/command_inventory.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.i
 .PHONY : src/commands/command_inventory.c.i
 
 src/commands/command_inventory.s: src/commands/command_inventory.c.s
@@ -340,7 +340,7 @@ src/commands/command_inventory.s: src/commands/command_inventory.c.s
 
 # target to generate assembly for a file
 src/commands/command_inventory.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_inventory.c.s
 .PHONY : src/commands/command_inventory.c.s
 
 src/commands/command_look.o: src/commands/command_look.c.o
@@ -348,7 +348,7 @@ src/commands/command_look.o: src/commands/command_look.c.o
 
 # target to build an object file
 src/commands/command_look.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.o
 .PHONY : src/commands/command_look.c.o
 
 src/commands/command_look.i: src/commands/command_look.c.i
@@ -356,7 +356,7 @@ src/commands/command_look.i: src/commands/command_look.c.i
 
 # target to preprocess a source file
 src/commands/command_look.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.i
 .PHONY : src/commands/command_look.c.i
 
 src/commands/command_look.s: src/commands/command_look.c.s
@@ -364,7 +364,7 @@ src/commands/command_look.s: src/commands/command_look.c.s
 
 # target to generate assembly for a file
 src/commands/command_look.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_look.c.s
 .PHONY : src/commands/command_look.c.s
 
 src/commands/command_move.o: src/commands/command_move.c.o
@@ -372,7 +372,7 @@ src/commands/command_move.o: src/commands/command_move.c.o
 
 # target to build an object file
 src/commands/command_move.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.o
 .PHONY : src/commands/command_move.c.o
 
 src/commands/command_move.i: src/commands/command_move.c.i
@@ -380,7 +380,7 @@ src/commands/command_move.i: src/commands/command_move.c.i
 
 # target to preprocess a source file
 src/commands/command_move.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.i
 .PHONY : src/commands/command_move.c.i
 
 src/commands/command_move.s: src/commands/command_move.c.s
@@ -388,7 +388,7 @@ src/commands/command_move.s: src/commands/command_move.c.s
 
 # target to generate assembly for a file
 src/commands/command_move.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_move.c.s
 .PHONY : src/commands/command_move.c.s
 
 src/commands/command_queue.o: src/commands/command_queue.c.o
@@ -396,7 +396,7 @@ src/commands/command_queue.o: src/commands/command_queue.c.o
 
 # target to build an object file
 src/commands/command_queue.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.o
 .PHONY : src/commands/command_queue.c.o
 
 src/commands/command_queue.i: src/commands/command_queue.c.i
@@ -404,7 +404,7 @@ src/commands/command_queue.i: src/commands/command_queue.c.i
 
 # target to preprocess a source file
 src/commands/command_queue.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.i
 .PHONY : src/commands/command_queue.c.i
 
 src/commands/command_queue.s: src/commands/command_queue.c.s
@@ -412,7 +412,7 @@ src/commands/command_queue.s: src/commands/command_queue.c.s
 
 # target to generate assembly for a file
 src/commands/command_queue.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_queue.c.s
 .PHONY : src/commands/command_queue.c.s
 
 src/commands/command_set_object.o: src/commands/command_set_object.c.o
@@ -420,7 +420,7 @@ src/commands/command_set_object.o: src/commands/command_set_object.c.o
 
 # target to build an object file
 src/commands/command_set_object.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.o
 .PHONY : src/commands/command_set_object.c.o
 
 src/commands/command_set_object.i: src/commands/command_set_object.c.i
@@ -428,7 +428,7 @@ src/commands/command_set_object.i: src/commands/command_set_object.c.i
 
 # target to preprocess a source file
 src/commands/command_set_object.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.i
 .PHONY : src/commands/command_set_object.c.i
 
 src/commands/command_set_object.s: src/commands/command_set_object.c.s
@@ -436,7 +436,7 @@ src/commands/command_set_object.s: src/commands/command_set_object.c.s
 
 # target to generate assembly for a file
 src/commands/command_set_object.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_set_object.c.s
 .PHONY : src/commands/command_set_object.c.s
 
 src/commands/command_take_object.o: src/commands/command_take_object.c.o
@@ -444,7 +444,7 @@ src/commands/command_take_object.o: src/commands/command_take_object.c.o
 
 # target to build an object file
 src/commands/command_take_object.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.o
 .PHONY : src/commands/command_take_object.c.o
 
 src/commands/command_take_object.i: src/commands/command_take_object.c.i
@@ -452,7 +452,7 @@ src/commands/command_take_object.i: src/commands/command_take_object.c.i
 
 # target to preprocess a source file
 src/commands/command_take_object.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.i
 .PHONY : src/commands/command_take_object.c.i
 
 src/commands/command_take_object.s: src/commands/command_take_object.c.s
@@ -460,7 +460,7 @@ src/commands/command_take_object.s: src/commands/command_take_object.c.s
 
 # target to generate assembly for a file
 src/commands/command_take_object.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/command_take_object.c.s
 .PHONY : src/commands/command_take_object.c.s
 
 src/commands/elevation_actions.o: src/commands/elevation_actions.c.o
@@ -468,7 +468,7 @@ src/commands/elevation_actions.o: src/commands/elevation_actions.c.o
 
 # target to build an object file
 src/commands/elevation_actions.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.o
 .PHONY : src/commands/elevation_actions.c.o
 
 src/commands/elevation_actions.i: src/commands/elevation_actions.c.i
@@ -476,7 +476,7 @@ src/commands/elevation_actions.i: src/commands/elevation_actions.c.i
 
 # target to preprocess a source file
 src/commands/elevation_actions.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.i
 .PHONY : src/commands/elevation_actions.c.i
 
 src/commands/elevation_actions.s: src/commands/elevation_actions.c.s
@@ -484,7 +484,7 @@ src/commands/elevation_actions.s: src/commands/elevation_actions.c.s
 
 # target to generate assembly for a file
 src/commands/elevation_actions.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_actions.c.s
 .PHONY : src/commands/elevation_actions.c.s
 
 src/commands/elevation_checks.o: src/commands/elevation_checks.c.o
@@ -492,7 +492,7 @@ src/commands/elevation_checks.o: src/commands/elevation_checks.c.o
 
 # target to build an object file
 src/commands/elevation_checks.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.o
 .PHONY : src/commands/elevation_checks.c.o
 
 src/commands/elevation_checks.i: src/commands/elevation_checks.c.i
@@ -500,7 +500,7 @@ src/commands/elevation_checks.i: src/commands/elevation_checks.c.i
 
 # target to preprocess a source file
 src/commands/elevation_checks.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.i
 .PHONY : src/commands/elevation_checks.c.i
 
 src/commands/elevation_checks.s: src/commands/elevation_checks.c.s
@@ -508,7 +508,7 @@ src/commands/elevation_checks.s: src/commands/elevation_checks.c.s
 
 # target to generate assembly for a file
 src/commands/elevation_checks.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/elevation_checks.c.s
 .PHONY : src/commands/elevation_checks.c.s
 
 src/commands/message_processing.o: src/commands/message_processing.c.o
@@ -516,7 +516,7 @@ src/commands/message_processing.o: src/commands/message_processing.c.o
 
 # target to build an object file
 src/commands/message_processing.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.o
 .PHONY : src/commands/message_processing.c.o
 
 src/commands/message_processing.i: src/commands/message_processing.c.i
@@ -524,7 +524,7 @@ src/commands/message_processing.i: src/commands/message_processing.c.i
 
 # target to preprocess a source file
 src/commands/message_processing.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.i
 .PHONY : src/commands/message_processing.c.i
 
 src/commands/message_processing.s: src/commands/message_processing.c.s
@@ -532,7 +532,7 @@ src/commands/message_processing.s: src/commands/message_processing.c.s
 
 # target to generate assembly for a file
 src/commands/message_processing.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/message_processing.c.s
 .PHONY : src/commands/message_processing.c.s
 
 src/commands/move_player.o: src/commands/move_player.c.o
@@ -540,7 +540,7 @@ src/commands/move_player.o: src/commands/move_player.c.o
 
 # target to build an object file
 src/commands/move_player.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.o
 .PHONY : src/commands/move_player.c.o
 
 src/commands/move_player.i: src/commands/move_player.c.i
@@ -548,7 +548,7 @@ src/commands/move_player.i: src/commands/move_player.c.i
 
 # target to preprocess a source file
 src/commands/move_player.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.i
 .PHONY : src/commands/move_player.c.i
 
 src/commands/move_player.s: src/commands/move_player.c.s
@@ -556,7 +556,7 @@ src/commands/move_player.s: src/commands/move_player.c.s
 
 # target to generate assembly for a file
 src/commands/move_player.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/move_player.c.s
 .PHONY : src/commands/move_player.c.s
 
 src/commands/set_handlers.o: src/commands/set_handlers.c.o
@@ -564,7 +564,7 @@ src/commands/set_handlers.o: src/commands/set_handlers.c.o
 
 # target to build an object file
 src/commands/set_handlers.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.o
 .PHONY : src/commands/set_handlers.c.o
 
 src/commands/set_handlers.i: src/commands/set_handlers.c.i
@@ -572,7 +572,7 @@ src/commands/set_handlers.i: src/commands/set_handlers.c.i
 
 # target to preprocess a source file
 src/commands/set_handlers.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.i
 .PHONY : src/commands/set_handlers.c.i
 
 src/commands/set_handlers.s: src/commands/set_handlers.c.s
@@ -580,7 +580,7 @@ src/commands/set_handlers.s: src/commands/set_handlers.c.s
 
 # target to generate assembly for a file
 src/commands/set_handlers.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers.c.s
 .PHONY : src/commands/set_handlers.c.s
 
 src/commands/set_handlers_bis.o: src/commands/set_handlers_bis.c.o
@@ -588,7 +588,7 @@ src/commands/set_handlers_bis.o: src/commands/set_handlers_bis.c.o
 
 # target to build an object file
 src/commands/set_handlers_bis.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.o
 .PHONY : src/commands/set_handlers_bis.c.o
 
 src/commands/set_handlers_bis.i: src/commands/set_handlers_bis.c.i
@@ -596,7 +596,7 @@ src/commands/set_handlers_bis.i: src/commands/set_handlers_bis.c.i
 
 # target to preprocess a source file
 src/commands/set_handlers_bis.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.i
 .PHONY : src/commands/set_handlers_bis.c.i
 
 src/commands/set_handlers_bis.s: src/commands/set_handlers_bis.c.s
@@ -604,7 +604,7 @@ src/commands/set_handlers_bis.s: src/commands/set_handlers_bis.c.s
 
 # target to generate assembly for a file
 src/commands/set_handlers_bis.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/set_handlers_bis.c.s
 .PHONY : src/commands/set_handlers_bis.c.s
 
 src/commands/take_handlers.o: src/commands/take_handlers.c.o
@@ -612,7 +612,7 @@ src/commands/take_handlers.o: src/commands/take_handlers.c.o
 
 # target to build an object file
 src/commands/take_handlers.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.o
 .PHONY : src/commands/take_handlers.c.o
 
 src/commands/take_handlers.i: src/commands/take_handlers.c.i
@@ -620,7 +620,7 @@ src/commands/take_handlers.i: src/commands/take_handlers.c.i
 
 # target to preprocess a source file
 src/commands/take_handlers.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.i
 .PHONY : src/commands/take_handlers.c.i
 
 src/commands/take_handlers.s: src/commands/take_handlers.c.s
@@ -628,7 +628,7 @@ src/commands/take_handlers.s: src/commands/take_handlers.c.s
 
 # target to generate assembly for a file
 src/commands/take_handlers.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers.c.s
 .PHONY : src/commands/take_handlers.c.s
 
 src/commands/take_handlers_bis.o: src/commands/take_handlers_bis.c.o
@@ -636,7 +636,7 @@ src/commands/take_handlers_bis.o: src/commands/take_handlers_bis.c.o
 
 # target to build an object file
 src/commands/take_handlers_bis.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.o
 .PHONY : src/commands/take_handlers_bis.c.o
 
 src/commands/take_handlers_bis.i: src/commands/take_handlers_bis.c.i
@@ -644,7 +644,7 @@ src/commands/take_handlers_bis.i: src/commands/take_handlers_bis.c.i
 
 # target to preprocess a source file
 src/commands/take_handlers_bis.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.i
 .PHONY : src/commands/take_handlers_bis.c.i
 
 src/commands/take_handlers_bis.s: src/commands/take_handlers_bis.c.s
@@ -652,7 +652,7 @@ src/commands/take_handlers_bis.s: src/commands/take_handlers_bis.c.s
 
 # target to generate assembly for a file
 src/commands/take_handlers_bis.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/commands/take_handlers_bis.c.s
 .PHONY : src/commands/take_handlers_bis.c.s
 
 src/config/args_error_handling.o: src/config/args_error_handling.c.o
@@ -660,7 +660,7 @@ src/config/args_error_handling.o: src/config/args_error_handling.c.o
 
 # target to build an object file
 src/config/args_error_handling.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.o
 .PHONY : src/config/args_error_handling.c.o
 
 src/config/args_error_handling.i: src/config/args_error_handling.c.i
@@ -668,7 +668,7 @@ src/config/args_error_handling.i: src/config/args_error_handling.c.i
 
 # target to preprocess a source file
 src/config/args_error_handling.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.i
 .PHONY : src/config/args_error_handling.c.i
 
 src/config/args_error_handling.s: src/config/args_error_handling.c.s
@@ -676,7 +676,7 @@ src/config/args_error_handling.s: src/config/args_error_handling.c.s
 
 # target to generate assembly for a file
 src/config/args_error_handling.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/args_error_handling.c.s
 .PHONY : src/config/args_error_handling.c.s
 
 src/config/argument_parsing.o: src/config/argument_parsing.c.o
@@ -684,7 +684,7 @@ src/config/argument_parsing.o: src/config/argument_parsing.c.o
 
 # target to build an object file
 src/config/argument_parsing.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.o
 .PHONY : src/config/argument_parsing.c.o
 
 src/config/argument_parsing.i: src/config/argument_parsing.c.i
@@ -692,7 +692,7 @@ src/config/argument_parsing.i: src/config/argument_parsing.c.i
 
 # target to preprocess a source file
 src/config/argument_parsing.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.i
 .PHONY : src/config/argument_parsing.c.i
 
 src/config/argument_parsing.s: src/config/argument_parsing.c.s
@@ -700,7 +700,7 @@ src/config/argument_parsing.s: src/config/argument_parsing.c.s
 
 # target to generate assembly for a file
 src/config/argument_parsing.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/config/argument_parsing.c.s
 .PHONY : src/config/argument_parsing.c.s
 
 src/core/main.o: src/core/main.c.o
@@ -708,7 +708,7 @@ src/core/main.o: src/core/main.c.o
 
 # target to build an object file
 src/core/main.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.o
 .PHONY : src/core/main.c.o
 
 src/core/main.i: src/core/main.c.i
@@ -716,7 +716,7 @@ src/core/main.i: src/core/main.c.i
 
 # target to preprocess a source file
 src/core/main.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.i
 .PHONY : src/core/main.c.i
 
 src/core/main.s: src/core/main.c.s
@@ -724,7 +724,7 @@ src/core/main.s: src/core/main.c.s
 
 # target to generate assembly for a file
 src/core/main.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/main.c.s
 .PHONY : src/core/main.c.s
 
 src/core/server_core.o: src/core/server_core.c.o
@@ -732,7 +732,7 @@ src/core/server_core.o: src/core/server_core.c.o
 
 # target to build an object file
 src/core/server_core.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o
 .PHONY : src/core/server_core.c.o
 
 src/core/server_core.i: src/core/server_core.c.i
@@ -740,7 +740,7 @@ src/core/server_core.i: src/core/server_core.c.i
 
 # target to preprocess a source file
 src/core/server_core.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.i
 .PHONY : src/core/server_core.c.i
 
 src/core/server_core.s: src/core/server_core.c.s
@@ -748,15 +748,39 @@ src/core/server_core.s: src/core/server_core.c.s
 
 # target to generate assembly for a file
 src/core/server_core.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_core.c.s
 .PHONY : src/core/server_core.c.s
+
+src/core/server_network_setup.o: src/core/server_network_setup.c.o
+.PHONY : src/core/server_network_setup.o
+
+# target to build an object file
+src/core/server_network_setup.c.o:
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.o
+.PHONY : src/core/server_network_setup.c.o
+
+src/core/server_network_setup.i: src/core/server_network_setup.c.i
+.PHONY : src/core/server_network_setup.i
+
+# target to preprocess a source file
+src/core/server_network_setup.c.i:
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.i
+.PHONY : src/core/server_network_setup.c.i
+
+src/core/server_network_setup.s: src/core/server_network_setup.c.s
+.PHONY : src/core/server_network_setup.s
+
+# target to generate assembly for a file
+src/core/server_network_setup.c.s:
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_network_setup.c.s
+.PHONY : src/core/server_network_setup.c.s
 
 src/core/server_shutdown.o: src/core/server_shutdown.c.o
 .PHONY : src/core/server_shutdown.o
 
 # target to build an object file
 src/core/server_shutdown.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.o
 .PHONY : src/core/server_shutdown.c.o
 
 src/core/server_shutdown.i: src/core/server_shutdown.c.i
@@ -764,7 +788,7 @@ src/core/server_shutdown.i: src/core/server_shutdown.c.i
 
 # target to preprocess a source file
 src/core/server_shutdown.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.i
 .PHONY : src/core/server_shutdown.c.i
 
 src/core/server_shutdown.s: src/core/server_shutdown.c.s
@@ -772,7 +796,7 @@ src/core/server_shutdown.s: src/core/server_shutdown.c.s
 
 # target to generate assembly for a file
 src/core/server_shutdown.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/server_shutdown.c.s
 .PHONY : src/core/server_shutdown.c.s
 
 src/core/signal_handling.o: src/core/signal_handling.c.o
@@ -780,7 +804,7 @@ src/core/signal_handling.o: src/core/signal_handling.c.o
 
 # target to build an object file
 src/core/signal_handling.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.o
 .PHONY : src/core/signal_handling.c.o
 
 src/core/signal_handling.i: src/core/signal_handling.c.i
@@ -788,7 +812,7 @@ src/core/signal_handling.i: src/core/signal_handling.c.i
 
 # target to preprocess a source file
 src/core/signal_handling.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.i
 .PHONY : src/core/signal_handling.c.i
 
 src/core/signal_handling.s: src/core/signal_handling.c.s
@@ -796,7 +820,7 @@ src/core/signal_handling.s: src/core/signal_handling.c.s
 
 # target to generate assembly for a file
 src/core/signal_handling.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/core/signal_handling.c.s
 .PHONY : src/core/signal_handling.c.s
 
 src/network/client_broadcast.o: src/network/client_broadcast.c.o
@@ -804,7 +828,7 @@ src/network/client_broadcast.o: src/network/client_broadcast.c.o
 
 # target to build an object file
 src/network/client_broadcast.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.o
 .PHONY : src/network/client_broadcast.c.o
 
 src/network/client_broadcast.i: src/network/client_broadcast.c.i
@@ -812,7 +836,7 @@ src/network/client_broadcast.i: src/network/client_broadcast.c.i
 
 # target to preprocess a source file
 src/network/client_broadcast.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.i
 .PHONY : src/network/client_broadcast.c.i
 
 src/network/client_broadcast.s: src/network/client_broadcast.c.s
@@ -820,7 +844,7 @@ src/network/client_broadcast.s: src/network/client_broadcast.c.s
 
 # target to generate assembly for a file
 src/network/client_broadcast.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_broadcast.c.s
 .PHONY : src/network/client_broadcast.c.s
 
 src/network/client_communication.o: src/network/client_communication.c.o
@@ -828,7 +852,7 @@ src/network/client_communication.o: src/network/client_communication.c.o
 
 # target to build an object file
 src/network/client_communication.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.o
 .PHONY : src/network/client_communication.c.o
 
 src/network/client_communication.i: src/network/client_communication.c.i
@@ -836,7 +860,7 @@ src/network/client_communication.i: src/network/client_communication.c.i
 
 # target to preprocess a source file
 src/network/client_communication.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.i
 .PHONY : src/network/client_communication.c.i
 
 src/network/client_communication.s: src/network/client_communication.c.s
@@ -844,7 +868,7 @@ src/network/client_communication.s: src/network/client_communication.c.s
 
 # target to generate assembly for a file
 src/network/client_communication.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/client_communication.c.s
 .PHONY : src/network/client_communication.c.s
 
 src/network/event_polling.o: src/network/event_polling.c.o
@@ -852,7 +876,7 @@ src/network/event_polling.o: src/network/event_polling.c.o
 
 # target to build an object file
 src/network/event_polling.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.o
 .PHONY : src/network/event_polling.c.o
 
 src/network/event_polling.i: src/network/event_polling.c.i
@@ -860,7 +884,7 @@ src/network/event_polling.i: src/network/event_polling.c.i
 
 # target to preprocess a source file
 src/network/event_polling.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.i
 .PHONY : src/network/event_polling.c.i
 
 src/network/event_polling.s: src/network/event_polling.c.s
@@ -868,7 +892,7 @@ src/network/event_polling.s: src/network/event_polling.c.s
 
 # target to generate assembly for a file
 src/network/event_polling.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/event_polling.c.s
 .PHONY : src/network/event_polling.c.s
 
 src/network/network_management.o: src/network/network_management.c.o
@@ -876,7 +900,7 @@ src/network/network_management.o: src/network/network_management.c.o
 
 # target to build an object file
 src/network/network_management.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o
 .PHONY : src/network/network_management.c.o
 
 src/network/network_management.i: src/network/network_management.c.i
@@ -884,7 +908,7 @@ src/network/network_management.i: src/network/network_management.c.i
 
 # target to preprocess a source file
 src/network/network_management.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.i
 .PHONY : src/network/network_management.c.i
 
 src/network/network_management.s: src/network/network_management.c.s
@@ -892,7 +916,7 @@ src/network/network_management.s: src/network/network_management.c.s
 
 # target to generate assembly for a file
 src/network/network_management.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/network/network_management.c.s
 .PHONY : src/network/network_management.c.s
 
 src/utils/cleanup_utils.o: src/utils/cleanup_utils.c.o
@@ -900,7 +924,7 @@ src/utils/cleanup_utils.o: src/utils/cleanup_utils.c.o
 
 # target to build an object file
 src/utils/cleanup_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.o
 .PHONY : src/utils/cleanup_utils.c.o
 
 src/utils/cleanup_utils.i: src/utils/cleanup_utils.c.i
@@ -908,7 +932,7 @@ src/utils/cleanup_utils.i: src/utils/cleanup_utils.c.i
 
 # target to preprocess a source file
 src/utils/cleanup_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.i
 .PHONY : src/utils/cleanup_utils.c.i
 
 src/utils/cleanup_utils.s: src/utils/cleanup_utils.c.s
@@ -916,7 +940,7 @@ src/utils/cleanup_utils.s: src/utils/cleanup_utils.c.s
 
 # target to generate assembly for a file
 src/utils/cleanup_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/cleanup_utils.c.s
 .PHONY : src/utils/cleanup_utils.c.s
 
 src/utils/look_utils.o: src/utils/look_utils.c.o
@@ -924,7 +948,7 @@ src/utils/look_utils.o: src/utils/look_utils.c.o
 
 # target to build an object file
 src/utils/look_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.o
 .PHONY : src/utils/look_utils.c.o
 
 src/utils/look_utils.i: src/utils/look_utils.c.i
@@ -932,7 +956,7 @@ src/utils/look_utils.i: src/utils/look_utils.c.i
 
 # target to preprocess a source file
 src/utils/look_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.i
 .PHONY : src/utils/look_utils.c.i
 
 src/utils/look_utils.s: src/utils/look_utils.c.s
@@ -940,39 +964,15 @@ src/utils/look_utils.s: src/utils/look_utils.c.s
 
 # target to generate assembly for a file
 src/utils/look_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/look_utils.c.s
 .PHONY : src/utils/look_utils.c.s
-
-src/utils/network_utils.o: src/utils/network_utils.c.o
-.PHONY : src/utils/network_utils.o
-
-# target to build an object file
-src/utils/network_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.o
-.PHONY : src/utils/network_utils.c.o
-
-src/utils/network_utils.i: src/utils/network_utils.c.i
-.PHONY : src/utils/network_utils.i
-
-# target to preprocess a source file
-src/utils/network_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.i
-.PHONY : src/utils/network_utils.c.i
-
-src/utils/network_utils.s: src/utils/network_utils.c.s
-.PHONY : src/utils/network_utils.s
-
-# target to generate assembly for a file
-src/utils/network_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/network_utils.c.s
-.PHONY : src/utils/network_utils.c.s
 
 src/utils/player_utils.o: src/utils/player_utils.c.o
 .PHONY : src/utils/player_utils.o
 
 # target to build an object file
 src/utils/player_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.o
 .PHONY : src/utils/player_utils.c.o
 
 src/utils/player_utils.i: src/utils/player_utils.c.i
@@ -980,7 +980,7 @@ src/utils/player_utils.i: src/utils/player_utils.c.i
 
 # target to preprocess a source file
 src/utils/player_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.i
 .PHONY : src/utils/player_utils.c.i
 
 src/utils/player_utils.s: src/utils/player_utils.c.s
@@ -988,7 +988,7 @@ src/utils/player_utils.s: src/utils/player_utils.c.s
 
 # target to generate assembly for a file
 src/utils/player_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/player_utils.c.s
 .PHONY : src/utils/player_utils.c.s
 
 src/utils/resource_utils.o: src/utils/resource_utils.c.o
@@ -996,7 +996,7 @@ src/utils/resource_utils.o: src/utils/resource_utils.c.o
 
 # target to build an object file
 src/utils/resource_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.o
 .PHONY : src/utils/resource_utils.c.o
 
 src/utils/resource_utils.i: src/utils/resource_utils.c.i
@@ -1004,7 +1004,7 @@ src/utils/resource_utils.i: src/utils/resource_utils.c.i
 
 # target to preprocess a source file
 src/utils/resource_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.i
 .PHONY : src/utils/resource_utils.c.i
 
 src/utils/resource_utils.s: src/utils/resource_utils.c.s
@@ -1012,39 +1012,15 @@ src/utils/resource_utils.s: src/utils/resource_utils.c.s
 
 # target to generate assembly for a file
 src/utils/resource_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/resource_utils.c.s
 .PHONY : src/utils/resource_utils.c.s
-
-src/utils/ressources_utils.o: src/utils/ressources_utils.c.o
-.PHONY : src/utils/ressources_utils.o
-
-# target to build an object file
-src/utils/ressources_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.o
-.PHONY : src/utils/ressources_utils.c.o
-
-src/utils/ressources_utils.i: src/utils/ressources_utils.c.i
-.PHONY : src/utils/ressources_utils.i
-
-# target to preprocess a source file
-src/utils/ressources_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.i
-.PHONY : src/utils/ressources_utils.c.i
-
-src/utils/ressources_utils.s: src/utils/ressources_utils.c.s
-.PHONY : src/utils/ressources_utils.s
-
-# target to generate assembly for a file
-src/utils/ressources_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/ressources_utils.c.s
-.PHONY : src/utils/ressources_utils.c.s
 
 src/utils/spatial_utils.o: src/utils/spatial_utils.c.o
 .PHONY : src/utils/spatial_utils.o
 
 # target to build an object file
 src/utils/spatial_utils.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.o
 .PHONY : src/utils/spatial_utils.c.o
 
 src/utils/spatial_utils.i: src/utils/spatial_utils.c.i
@@ -1052,7 +1028,7 @@ src/utils/spatial_utils.i: src/utils/spatial_utils.c.i
 
 # target to preprocess a source file
 src/utils/spatial_utils.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.i
 .PHONY : src/utils/spatial_utils.c.i
 
 src/utils/spatial_utils.s: src/utils/spatial_utils.c.s
@@ -1060,39 +1036,15 @@ src/utils/spatial_utils.s: src/utils/spatial_utils.c.s
 
 # target to generate assembly for a file
 src/utils/spatial_utils.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/utils/spatial_utils.c.s
 .PHONY : src/utils/spatial_utils.c.s
-
-src/world/food_consumption.o: src/world/food_consumption.c.o
-.PHONY : src/world/food_consumption.o
-
-# target to build an object file
-src/world/food_consumption.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.o
-.PHONY : src/world/food_consumption.c.o
-
-src/world/food_consumption.i: src/world/food_consumption.c.i
-.PHONY : src/world/food_consumption.i
-
-# target to preprocess a source file
-src/world/food_consumption.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.i
-.PHONY : src/world/food_consumption.c.i
-
-src/world/food_consumption.s: src/world/food_consumption.c.s
-.PHONY : src/world/food_consumption.s
-
-# target to generate assembly for a file
-src/world/food_consumption.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/food_consumption.c.s
-.PHONY : src/world/food_consumption.c.s
 
 src/world/player_management.o: src/world/player_management.c.o
 .PHONY : src/world/player_management.o
 
 # target to build an object file
 src/world/player_management.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.o
 .PHONY : src/world/player_management.c.o
 
 src/world/player_management.i: src/world/player_management.c.i
@@ -1100,7 +1052,7 @@ src/world/player_management.i: src/world/player_management.c.i
 
 # target to preprocess a source file
 src/world/player_management.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.i
 .PHONY : src/world/player_management.c.i
 
 src/world/player_management.s: src/world/player_management.c.s
@@ -1108,7 +1060,7 @@ src/world/player_management.s: src/world/player_management.c.s
 
 # target to generate assembly for a file
 src/world/player_management.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/player_management.c.s
 .PHONY : src/world/player_management.c.s
 
 src/world/spatial_management.o: src/world/spatial_management.c.o
@@ -1116,7 +1068,7 @@ src/world/spatial_management.o: src/world/spatial_management.c.o
 
 # target to build an object file
 src/world/spatial_management.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.o
 .PHONY : src/world/spatial_management.c.o
 
 src/world/spatial_management.i: src/world/spatial_management.c.i
@@ -1124,7 +1076,7 @@ src/world/spatial_management.i: src/world/spatial_management.c.i
 
 # target to preprocess a source file
 src/world/spatial_management.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.i
 .PHONY : src/world/spatial_management.c.i
 
 src/world/spatial_management.s: src/world/spatial_management.c.s
@@ -1132,7 +1084,7 @@ src/world/spatial_management.s: src/world/spatial_management.c.s
 
 # target to generate assembly for a file
 src/world/spatial_management.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/spatial_management.c.s
 .PHONY : src/world/spatial_management.c.s
 
 src/world/world_creation.o: src/world/world_creation.c.o
@@ -1140,7 +1092,7 @@ src/world/world_creation.o: src/world/world_creation.c.o
 
 # target to build an object file
 src/world/world_creation.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.o
 .PHONY : src/world/world_creation.c.o
 
 src/world/world_creation.i: src/world/world_creation.c.i
@@ -1148,7 +1100,7 @@ src/world/world_creation.i: src/world/world_creation.c.i
 
 # target to preprocess a source file
 src/world/world_creation.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.i
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.i
 .PHONY : src/world/world_creation.c.i
 
 src/world/world_creation.s: src/world/world_creation.c.s
@@ -1156,80 +1108,8 @@ src/world/world_creation.s: src/world/world_creation.c.s
 
 # target to generate assembly for a file
 src/world/world_creation.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.s
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_creation.c.s
 .PHONY : src/world/world_creation.c.s
-
-src/world/world_ressources.o: src/world/world_ressources.c.o
-.PHONY : src/world/world_ressources.o
-
-# target to build an object file
-src/world/world_ressources.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.o
-.PHONY : src/world/world_ressources.c.o
-
-src/world/world_ressources.i: src/world/world_ressources.c.i
-.PHONY : src/world/world_ressources.i
-
-# target to preprocess a source file
-src/world/world_ressources.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.i
-.PHONY : src/world/world_ressources.c.i
-
-src/world/world_ressources.s: src/world/world_ressources.c.s
-.PHONY : src/world/world_ressources.s
-
-# target to generate assembly for a file
-src/world/world_ressources.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources.c.s
-.PHONY : src/world/world_ressources.c.s
-
-src/world/world_ressources_bis.o: src/world/world_ressources_bis.c.o
-.PHONY : src/world/world_ressources_bis.o
-
-# target to build an object file
-src/world/world_ressources_bis.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.o
-.PHONY : src/world/world_ressources_bis.c.o
-
-src/world/world_ressources_bis.i: src/world/world_ressources_bis.c.i
-.PHONY : src/world/world_ressources_bis.i
-
-# target to preprocess a source file
-src/world/world_ressources_bis.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.i
-.PHONY : src/world/world_ressources_bis.c.i
-
-src/world/world_ressources_bis.s: src/world/world_ressources_bis.c.s
-.PHONY : src/world/world_ressources_bis.s
-
-# target to generate assembly for a file
-src/world/world_ressources_bis.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_bis.c.s
-.PHONY : src/world/world_ressources_bis.c.s
-
-src/world/world_ressources_three.o: src/world/world_ressources_three.c.o
-.PHONY : src/world/world_ressources_three.o
-
-# target to build an object file
-src/world/world_ressources_three.c.o:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.o
-.PHONY : src/world/world_ressources_three.c.o
-
-src/world/world_ressources_three.i: src/world/world_ressources_three.c.i
-.PHONY : src/world/world_ressources_three.i
-
-# target to preprocess a source file
-src/world/world_ressources_three.c.i:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.i
-.PHONY : src/world/world_ressources_three.c.i
-
-src/world/world_ressources_three.s: src/world/world_ressources_three.c.s
-.PHONY : src/world/world_ressources_three.s
-
-# target to generate assembly for a file
-src/world/world_ressources_three.c.s:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/src/world/world_ressources_three.c.s
-.PHONY : src/world/world_ressources_three.c.s
 
 # Help Target
 help:
@@ -1316,6 +1196,9 @@ help:
 	@echo "... src/core/server_core.o"
 	@echo "... src/core/server_core.i"
 	@echo "... src/core/server_core.s"
+	@echo "... src/core/server_network_setup.o"
+	@echo "... src/core/server_network_setup.i"
+	@echo "... src/core/server_network_setup.s"
 	@echo "... src/core/server_shutdown.o"
 	@echo "... src/core/server_shutdown.i"
 	@echo "... src/core/server_shutdown.s"
@@ -1340,24 +1223,15 @@ help:
 	@echo "... src/utils/look_utils.o"
 	@echo "... src/utils/look_utils.i"
 	@echo "... src/utils/look_utils.s"
-	@echo "... src/utils/network_utils.o"
-	@echo "... src/utils/network_utils.i"
-	@echo "... src/utils/network_utils.s"
 	@echo "... src/utils/player_utils.o"
 	@echo "... src/utils/player_utils.i"
 	@echo "... src/utils/player_utils.s"
 	@echo "... src/utils/resource_utils.o"
 	@echo "... src/utils/resource_utils.i"
 	@echo "... src/utils/resource_utils.s"
-	@echo "... src/utils/ressources_utils.o"
-	@echo "... src/utils/ressources_utils.i"
-	@echo "... src/utils/ressources_utils.s"
 	@echo "... src/utils/spatial_utils.o"
 	@echo "... src/utils/spatial_utils.i"
 	@echo "... src/utils/spatial_utils.s"
-	@echo "... src/world/food_consumption.o"
-	@echo "... src/world/food_consumption.i"
-	@echo "... src/world/food_consumption.s"
 	@echo "... src/world/player_management.o"
 	@echo "... src/world/player_management.i"
 	@echo "... src/world/player_management.s"
@@ -1367,15 +1241,6 @@ help:
 	@echo "... src/world/world_creation.o"
 	@echo "... src/world/world_creation.i"
 	@echo "... src/world/world_creation.s"
-	@echo "... src/world/world_ressources.o"
-	@echo "... src/world/world_ressources.i"
-	@echo "... src/world/world_ressources.s"
-	@echo "... src/world/world_ressources_bis.o"
-	@echo "... src/world/world_ressources_bis.i"
-	@echo "... src/world/world_ressources_bis.s"
-	@echo "... src/world/world_ressources_three.o"
-	@echo "... src/world/world_ressources_three.i"
-	@echo "... src/world/world_ressources_three.s"
 .PHONY : help
 
 
@@ -1387,6 +1252,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gabinrudigoz/zappy/workflow/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

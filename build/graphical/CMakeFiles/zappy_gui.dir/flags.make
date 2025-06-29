@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gabinrudigoz/zappy/workflow/graphical/lib -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6
+CXX_INCLUDES = -I/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/lib -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6
 
 CXX_FLAGS = -std=gnu++17 -DWITH_GZFILEOP -pthread -I/usr/include
 

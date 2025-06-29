@@ -1,4 +1,4 @@
-# Install script for directory: /home/gabinrudigoz/zappy/workflow/ai
+# Install script for directory: /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/ai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

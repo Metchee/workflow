@@ -46,7 +46,7 @@ static server_t *create_and_start_server(int port, map_parameters_t *map_data,
         printf("Error: Failed to create server\n");
         return NULL;
     }
-    if (server_start(server) != SUCCESS) {
+    if (server_start(server) == -1) {
         printf("Error: Failed to start server\n");
         server_destroy(server);
         return NULL;

@@ -87,5 +87,6 @@ void free_player(client_t *client);
 void notify_gui_new_player(server_t *server, player_t const *player);
 void notify_gui_player_disconnect(server_t *server,
     player_t const *player);
-
+bool server_handle_events(server_t *server);
+void server_process_client_events(server_t *server);
 #endif

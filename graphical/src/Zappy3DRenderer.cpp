@@ -412,7 +412,7 @@ void Zappy3DRenderer::closeWindow() {
 }
 
 void Zappy3DRenderer::drawMap() {
-    const GameState& gameState = mediator.getGameState();
+    const GameState& gameState = mediator.getGameState(); // <-- AJOUTE
     for (int y = 0; y < gameState.getMapHeight(); ++y) {
         for (int x = 0; x < gameState.getMapWidth(); ++x) {
             const Tile& tile = gameState.getTile(x, y);
@@ -560,9 +560,17 @@ void Zappy3DRenderer::drawTeamStatsPanel() {
     int padding = getScaledSize(15);
     DrawText("TEAM STATISTICS", x + padding, y + padding, titleSize, WHITE);
 
+    const GameState& currentGameState = mediator.getGameState();
+    
     std::map<std::string, std::vector<const Player*>> teamPlayers;
-    for (const Player& player : gameState.getPlayers()) {
+    for (const Player& player : currentGameState.getPlayers()) {
         teamPlayers[player.team_name].push_back(&player);
+    }
+
+    if (teamPlayers.empty()) {
+        DrawText("No players connected", x + padding, y + padding + getScaledSize(40), 
+                 getScaledFontSize(16), GRAY);
+        return;
     }
 
     int yOffset = getScaledSize(50);
@@ -571,8 +579,11 @@ void Zappy3DRenderer::drawTeamStatsPanel() {
     int lineSpacing = getScaledSize(45);
 
     for (const auto& team : teamPlayers) {
+        if (yOffset > panelHeight - getScaledSize(60)) {
+            DrawText("...", x + padding, y + yOffset, statsSize, GRAY);
+            break;
+        }
         Color teamColor = getTeamColor(team.first);
-
         DrawText(team.first.c_str(), x + padding, y + yOffset, teamNameSize, teamColor);
 
         int totalLevel = 0;
@@ -583,7 +594,8 @@ void Zappy3DRenderer::drawTeamStatsPanel() {
 
         std::string stats = TextFormat("Players: %d  Avg Lvl: %.1f",
                                      (int)team.second.size(), avgLevel);
-        DrawText(stats.c_str(), x + padding + getScaledSize(5), y + yOffset + getScaledSize(20), statsSize, LIGHTGRAY);
+        DrawText(stats.c_str(), x + padding + getScaledSize(5), 
+                 y + yOffset + getScaledSize(20), statsSize, LIGHTGRAY);
 
         yOffset += lineSpacing;
     }

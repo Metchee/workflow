@@ -40,8 +40,8 @@ void ZappyGUI::closeWindow() {
 
 void ZappyGUI::run() {
     mediator.initialize();
+
     setupWindow();
-    renderer.playBackgroundMusic("../graphical/asset/backgroundmusic.ogg");
     while (isWindowOpen()) {
         pollEvents();
         renderFrame();

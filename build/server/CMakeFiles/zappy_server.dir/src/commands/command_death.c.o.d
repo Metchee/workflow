@@ -1,5 +1,5 @@
 server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: \
- /home/gabinrudigoz/zappy/workflow/server/src/commands/command_death.c \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/commands/command_death.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -34,7 +34,7 @@ server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/gabinrudigoz/zappy/workflow/server/include/server.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/server.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
@@ -50,16 +50,16 @@ server/CMakeFiles/zappy_server.dir/src/commands/command_death.c.o: \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h \
- /home/gabinrudigoz/zappy/workflow/server/include/map_parameters.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/map_parameters.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/gabinrudigoz/zappy/workflow/server/include/ressources.h \
- /home/gabinrudigoz/zappy/workflow/server/include/player.h \
- /home/gabinrudigoz/zappy/workflow/server/include/server.h \
- /home/gabinrudigoz/zappy/workflow/server/include/map_parameters.h \
- /home/gabinrudigoz/zappy/workflow/server/include/command_handlers.h \
- /home/gabinrudigoz/zappy/workflow/server/include/command_handlers.h \
- /home/gabinrudigoz/zappy/workflow/server/include/message_protocol.h \
- /home/gabinrudigoz/zappy/workflow/server/include/server_network.h
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/ressources.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/player.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/server.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/map_parameters.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/command_handlers.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/command_handlers.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/message_protocol.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/server_network.h

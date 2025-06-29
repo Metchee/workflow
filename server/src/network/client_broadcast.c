@@ -26,7 +26,8 @@ void server_notify_all_clients(server_t *server, const char *message, ...)
     current = server->clients;
     while (current) {
         if (current->client.fd >= 0) {
-            server_send_to_client(current, "%s", formatted_message);
+            send(current->client.fd, formatted_message,
+                strlen(formatted_message), MSG_NOSIGNAL);
         }
         current = current->next;
     }
@@ -47,7 +48,8 @@ void server_notify_clients_by_type(server_t *server, client_type_t type,
     current = server->clients;
     while (current) {
         if (current->client.fd >= 0 && current->client.type == type) {
-            server_send_to_client(current, "%s", formatted_message);
+            send(current->client.fd, formatted_message,
+                strlen(formatted_message), MSG_NOSIGNAL);
         }
         current = current->next;
     }

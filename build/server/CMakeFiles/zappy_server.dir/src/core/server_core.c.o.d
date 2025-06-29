@@ -1,5 +1,5 @@
 server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: \
- /home/gabinrudigoz/zappy/workflow/server/src/core/server_core.c \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/core/server_core.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -63,22 +63,21 @@ server/CMakeFiles/zappy_server.dir/src/core/server_core.c.o: \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server.h \
- /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/map_parameters.h \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
+ /usr/include/bits/unistd_ext.h /usr/include/sys/time.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/ressources.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server_signal.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server_network.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/message_protocol.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/resource_utils.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/player.h \
- /usr/include/netinet/tcp.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/netinet/tcp.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-least.h
+ /usr/include/bits/stdint-least.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server.h \
+ /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/map_parameters.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/ressources.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server_signal.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server_network.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/message_protocol.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/resource_utils.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/player.h

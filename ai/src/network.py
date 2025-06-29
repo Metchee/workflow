@@ -22,110 +22,128 @@ class NetworkClient:
 
     def connect(self) -> bool:
         if self.is_connected:
+            print(f"Network: Already connected to {self.host}:{self.port}")
             return True
         try:
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.socket.settimeout(5)
+            self.socket.settimeout(10)
+            print(f"Network: Attempting to connect to {self.host}:{self.port}...")
             self.socket.connect((self.host, self.port))
             self.is_connected = True
             self.pending_commands = 0
             self._read_buffer = b""
-            print(f"Network: Connected to {self.host}:{self.port}")
+            print(f"Network: Successfully connected to {self.host}:{self.port}")
             return True
+        except socket.timeout:
+            print(f"Network: Connection to {self.host}:{self.port} timed out.")
+            self.socket = None
+            return False
         except Exception as e:
-            print(f"Network: Connection failed - {e}")
+            print(f"Network: Connection failed to {self.host}:{self.port} - {e}")
             self.socket = None
             return False
 
     def disconnect(self):
         if self.socket:
             try:
-                self.socket.close()
-            except:
+                self.socket.shutdown(socket.SHUT_RDWR)
+            except OSError:
                 pass
+            self.socket.close()
             self.socket = None
         self.is_connected = False
+        print("Network: Disconnected.")
 
     def send_command(self, command: str) -> bool:
         if not self.is_connected or not self.socket:
+            print(f"Network: Cannot send command '{command}'. Not connected.")
             return False
-        
         if self.pending_commands >= self.max_pending:
-            print(f"Network: Too many pending commands, skipping: {command}")
+            print(f"Network: Cannot send command '{command}'. Max pending commands ({self.max_pending}) reached.")
             return False
 
         try:
             message = f"{command}\n"
             self.socket.sendall(message.encode('utf-8'))
             self.pending_commands += 1
+            print(f"Network: Sent -> {command.strip()}")
             return True
         except Exception as e:
-            print(f"Network: Send failed: {e}")
+            print(f"Network: Failed to send command '{command}': {e}")
             self.is_connected = False
+            self.disconnect()
             return False
 
     def receive_line(self) -> str:
-        if not self.is_connected or not self.socket:
-            return "dead"
-        
         newline_idx = self._read_buffer.find(b"\n")
 
         while newline_idx == -1:
             try:
-                data = self.socket.recv(1024)
+                data = self.socket.recv(2048)
                 if not data:
+                    print("Network: Connection closed by server while receiving.")
                     self.is_connected = False
+                    self.disconnect()
+                    if self._read_buffer:
+                        remaining_message = self._read_buffer.decode('utf-8', errors='ignore').strip()
+                        self._read_buffer = b""
+                        print(f"Network: Received (partial from buffer before dead) <- {remaining_message}")
+                        return remaining_message
                     return "dead"
                 self._read_buffer += data
                 newline_idx = self._read_buffer.find(b"\n")
             except socket.timeout:
+                print("Network: Timeout while receiving message.")
                 return ""
             except Exception as e:
-                print(f"Network: Receive failed: {e}")
+                print(f"Network: Failed to receive message (in loop): {e}")
                 self.is_connected = False
-                return "dead"
+                self.disconnect()
+                if self._read_buffer:
+                    remaining_message = self._read_buffer.decode('utf-8', errors='ignore').strip()
+                    self._read_buffer = b""
+                    print(f"Network: Received (partial from buffer before exception) <- {remaining_message}")
+                    return remaining_message
+                return ""
 
         message_line_bytes = self._read_buffer[:newline_idx]
         self._read_buffer = self._read_buffer[newline_idx+1:]
 
         message_str = message_line_bytes.decode('utf-8', errors='ignore').strip()
 
-        if message_str.startswith("message"):
-            return message_str
-        elif message_str.startswith("eject:"):
-            return message_str
-        elif message_str == "dead":
-            return message_str
-        else:
-            if message_str and message_str not in ["", "ko", "ok"]:
-                self.pending_commands = max(0, self.pending_commands - 1)
-            elif message_str in ["ok", "ko"]:
-                self.pending_commands = max(0, self.pending_commands - 1)
+        if message_str and message_str not in ["dead"] and \
+           not message_str.startswith("message") and \
+           not message_str.startswith("eject:"):
+            self.pending_commands = max(0, self.pending_commands - 1)
 
+        print(f"Network: Received <- {message_str}")
         return message_str
 
     def authenticate(self) -> Tuple[bool, Tuple[int, int]]:
         if not self.is_connected:
+            print("Network: Cannot authenticate. Not connected.")
             return False, (0, 0)
         try:
+            print("Network: Starting authentication...")
             welcome = self.receive_line()
             if welcome != "WELCOME":
+                print(f"Network: Authentication failed. Expected 'WELCOME', got '{welcome}'")
                 return False, (0, 0)
-            
             if not self.send_command(self.team_name):
+                print(f"Network: Authentication failed. Could not send team name '{self.team_name}'.")
                 return False, (0, 0)
-            
             client_num = self.receive_line()
             if client_num == "ko":
+                print("Network: Authentication failed. Server returned 'ko'.")
                 return False, (0, 0)
-            
             dimensions = self.receive_line()
             if dimensions:
                 dim_parts = dimensions.strip().split()
                 if len(dim_parts) >= 2:
                     world_size = (int(dim_parts[0]), int(dim_parts[1]))
+                    print(f"World size: {world_size}")
                     return True, world_size
             return False, (0, 0)
         except Exception as e:
-            print(f"Network: Authentication failed: {e}")
+            print(f"Network: Authentication process failed with exception: {e}")
             return False, (0, 0)

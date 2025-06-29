@@ -85,7 +85,6 @@ bool init_player(server_t *server, client_t *client, const char *command)
     client->player->team_name = strdup(command);
     initialize_player_inventory(client->player);
     set_player_position(server, client->player);
-    init_food_consumption_timer(client->player);
     return true;
 }
 

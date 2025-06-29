@@ -5,14 +5,22 @@
 ## ai zappy class
 ##
 
-from dataclasses import dataclass
 from enum import Enum
+from dataclasses import dataclass
+from typing import List
 
 class Direction(Enum):
-    NORTH = 0
-    EAST = 1
-    SOUTH = 2
-    WEST = 3
+    NORTH = 1
+    EAST = 2
+    SOUTH = 3
+    WEST = 4
+
+class PlayerState(Enum):
+    EXPLORING = "exploring"
+    COLLECTING = "collecting"
+    SEEKING_ELEVATION = "seeking_elevation"
+    ELEVATING = "elevating"
+    STARVING = "starving"
 
 @dataclass
 class Resources:
@@ -26,7 +34,7 @@ class Resources:
 
 @dataclass
 class ElevationRequirement:
-    nb_players: int
+    players: int
     linemate: int
     deraumere: int
     sibur: int
@@ -43,5 +51,3 @@ ELEVATION_REQUIREMENTS = {
     6: ElevationRequirement(6, 1, 2, 3, 0, 1, 0),
     7: ElevationRequirement(6, 2, 2, 2, 2, 2, 1),
 }
-
-RESOURCE_NAMES = ["linemate", "deraumere", "sibur", "mendiane", "phiras", "thystame"]

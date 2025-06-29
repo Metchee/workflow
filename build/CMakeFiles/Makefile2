@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/workflow
+CMAKE_SOURCE_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/workflow/build
+CMAKE_BINARY_DIR = /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -132,14 +132,14 @@ server/clean: server/CMakeFiles/zappy_server.dir/clean
 server/CMakeFiles/zappy_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/zappy_server.dir/build.make server/CMakeFiles/zappy_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target zappy_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target zappy_server"
 .PHONY : server/CMakeFiles/zappy_server.dir/all
 
 # Build rule for subdir invocation for target.
 server/CMakeFiles/zappy_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server/CMakeFiles/zappy_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 0
 .PHONY : server/CMakeFiles/zappy_server.dir/rule
 
 # Convenience name for target.
@@ -158,14 +158,14 @@ server/CMakeFiles/zappy_server.dir/clean:
 graphical/CMakeFiles/zappy_gui.dir/all:
 	$(MAKE) $(MAKESILENT) -f graphical/CMakeFiles/zappy_gui.dir/build.make graphical/CMakeFiles/zappy_gui.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphical/CMakeFiles/zappy_gui.dir/build.make graphical/CMakeFiles/zappy_gui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12 "Built target zappy_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12 "Built target zappy_gui"
 .PHONY : graphical/CMakeFiles/zappy_gui.dir/all
 
 # Build rule for subdir invocation for target.
 graphical/CMakeFiles/zappy_gui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphical/CMakeFiles/zappy_gui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 0
 .PHONY : graphical/CMakeFiles/zappy_gui.dir/rule
 
 # Convenience name for target.
@@ -184,14 +184,14 @@ graphical/CMakeFiles/zappy_gui.dir/clean:
 ai/CMakeFiles/zappy_ai.dir/all:
 	$(MAKE) $(MAKESILENT) -f ai/CMakeFiles/zappy_ai.dir/build.make ai/CMakeFiles/zappy_ai.dir/depend
 	$(MAKE) $(MAKESILENT) -f ai/CMakeFiles/zappy_ai.dir/build.make ai/CMakeFiles/zappy_ai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/workflow/build/CMakeFiles --progress-num=1 "Built target zappy_ai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles --progress-num=1 "Built target zappy_ai"
 .PHONY : ai/CMakeFiles/zappy_ai.dir/all
 
 # Build rule for subdir invocation for target.
 ai/CMakeFiles/zappy_ai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ai/CMakeFiles/zappy_ai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/workflow/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/build/CMakeFiles 0
 .PHONY : ai/CMakeFiles/zappy_ai.dir/rule
 
 # Convenience name for target.

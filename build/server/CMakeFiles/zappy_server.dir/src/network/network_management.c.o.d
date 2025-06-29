@@ -1,5 +1,5 @@
 server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: \
- /home/gabinrudigoz/zappy/workflow/server/src/network/network_management.c \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/src/network/network_management.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -56,14 +56,14 @@ server/CMakeFiles/zappy_server.dir/src/network/network_management.c.o: \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-least.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server_network.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/server.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server_network.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/server.h \
  /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/map_parameters.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/map_parameters.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/ressources.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/message_protocol.h \
- /home/gabinrudigoz/zappy/workflow/server/include/../include/player.h
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/ressources.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/message_protocol.h \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/server/include/../include/player.h

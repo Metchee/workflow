@@ -1,7 +1,7 @@
 graphical/CMakeFiles/zappy_gui.dir/src/Client_network.cpp.o: \
- /home/gabinrudigoz/zappy/workflow/graphical/src/Client_network.cpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/Client_network.cpp \
  /usr/include/stdc-predef.h \
- /home/gabinrudigoz/zappy/workflow/graphical/src/../lib/Client_network.hpp \
+ /home/gabinrudigoz/zappy/B-YEP-400-PAR-4-1-zappy-alexandre.sok/graphical/src/../lib/Client_network.hpp \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
